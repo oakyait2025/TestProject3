@@ -22,7 +22,7 @@ namespace TestProject3
             e.Click();
             Thread.Sleep(1000);
             IWebElement e1 = driver.FindElement(By.Name("firstname"));
-            e1.SendKeys("bhavaniiii");
+            e1.SendKeys("bhavani");
             Thread.Sleep(1000);
             IWebElement e2 = driver.FindElement(By.Name("lastname"));
             e2.SendKeys("kota");
